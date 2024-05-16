@@ -1,6 +1,6 @@
 
 # Set the directory path where the .rar files are located
-$directoryPath = "D:\Downloads\_TV"
+$directoryPath = "D:\Downloads\"
 
 # Get a list of all .rar files in the directory and its subdirectories
 $rarFiles = Get-ChildItem -Path $directoryPath -Include *.rar -Recurse
